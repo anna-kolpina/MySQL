@@ -1,84 +1,90 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-	<meta charset="utf-8">
-	<title>Личный сайт портфолио Колпиной Анны</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-	<link rel="shortcut icon" href="img/favicon.ico.png" type="image/x-icon">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-	<meta name="keywords" content="верстка, адаптивность, кроссбраузерность, услуга верстки сайта, мобильная верстка"/>
-	<meta name="description" content="Разработка сайтов качественно и не дорого. Создание сайт-визитка и Landing-page, бесспорно низкие цены, поддержка сайта."/>
-	<meta name='wmail-verification' content='5348c9ec18fe71620a7221631a167f96'/>
-</head>
-<body>
-<div class="wrapper">
-	<div class="buffer__top"></div>
-	<div class="container">
-		<!-- HEADER -->
-		<nav class="menu" itemscope itemtype="http://schema.org/CreativeWork">
-			<div class="menu__small">
-				<a class="menu__small-link">меню</a>
-			</div>
-			<ul class="menu__list">
-				<li class="menu__list-item">
-					<a href="main.html" class="menu__list-item-link" itemprop="description">главная</a>
-				</li>
-				<li class="menu__list-item">
-					<a href="index.html" class="menu__list-item-link menu__list-item-link-active" itemprop="description">портфолио</a>
-				</li>
-				<li class="menu__list-item">
-					<a href="skills.html" class="menu__list-item-link" itemprop="description">навыки</a>
-				</li>
-				<li class="menu__list-item">
-					<a href="skills.html#practice" class="menu__list-item-link" itemprop="description">творческий опыт</a>
-				</li>
-				<li class="menu__list-item">
-					<a href="comment.html" class="menu__list-item-link" itemprop="description">отзывы</a>
-				</li>
-				<li class="menu__list-item">
-					<a href="contacty.html" class="menu__list-item-link" itemprop="description">контакты</a>
-				</li>
-			</ul>
-		</nav>
-		<!-- WORK -->
-		<div class="work">
-			<h1 class="work__title">Мои работы</h1>
-			<div>
-				<a href="works/portfolio/portfolio.html" class="work__photo" target="_blank"> 
-					<img src="works/portfolio/portfolio.jpg" alt="фото"> 
-					<div class="work__photo-text">2018</div> 
-				</a>
-				<a href="works/simple/simple.html" class="work__photo" target="_blank"> 
-					<img src="works/simple/simple.jpg" alt="фото"> 
-					<div class="work__photo-text">2017</div> 
-				</a>
-				<a href="works/travel/travel.html" class="work__photo" target="_blank"> 
-					<img src="works/travel/travel.jpg" alt="фото"> 
-					<div class="work__photo-text">2017</div> 
-				</a>
-				<a href="http://dom-russa.ru" class="work__photo" target="_blank"> 
-					<img src="img/1.jpg" alt="фото"> 
-					<div class="work__photo-text">2017</div> 
-				</a>
-			</div>
-		</div>
-	</div>
-	<div class="buffer"></div>
-</div>
-<!-- FOOTER -->
-<footer class="footer">
-	<!-- Yandex.Metrika informer -->
-		<a href="https://metrika.yandex.ru/stat/?id=40676519&amp;from=informer" target="_blank" rel="nofollow">	<img src="https://informer.yandex.ru/informer/40676519/2_1_FFFFFFFF_EFEFEFFF_1_pageviews" style=" width:80px; margin: 10px 0 0 0; height:31px; border:0; float: left;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры)" class="ym-advanced-informer" data-cid="40676519" data-lang="ru" />
-		</a>
-	<!-- /Yandex.Metrika informer -->
-	<!-- Yandex.Metrika counter -->
-		<script> (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter40676519 = new Ya.Metrika({ id:40676519, clickmap:true, trackLinks:true, accurateTrackBounce:true, webvisor:true }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://mc.yandex.ru/metrika/watch.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");</script><noscript><div><img src="https://mc.yandex.ru/watch/40676519" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-	<!-- /Yandex.Metrika counter -->
-	<p class="footer__text">Copyright © 2017 | sity2016.ru | Все права защищены</p>
-	<!-- Rating@Mail.ru counter -->
-		<script>var _tmr = window._tmr || (window._tmr = []);_tmr.push({id: "2832421", type: "pageView", start: (new Date()).getTime()});(function (d, w, id) { if (d.getElementById(id)) return; var ts = d.createElement("script"); ts.type = "text/javascript"; ts.async = true; ts.id = id; ts.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//top-fwz1.mail.ru/js/code.js"; var f = function () {var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(ts, s);}; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); }})(document, window, "topmailru-code");</script><noscript><div><img src="//top-fwz1.mail.ru/counter?id=2832421;js=na" style="border:0;position:absolute;left:-9999px;" alt="" /></div></noscript>
-	<!-- //Rating@Mail.ru counter -->
-</footer>
-<script src="menu.js" type="text/javascript"></script>
-</body>
-</html>
+use shop;
+-- SELECT * FROM shop.brand;
+-- select * from category where anna_name is null and (discount>0);
+
+-- урок 7
+-- название бренда с идентификатором 3 --
+-- select * from shop.brand where id=3;
+-- первые два типа товара из табл типы товаров
+-- select * from shop.product_type limit 2;
+-- все категории товаров со скидкой < 10% и отсортировать по названию
+-- select * from shop.category where discount <10 order by name;
+
+-- урок 8
+-- с помощью команды UPDATE заполнить anna_name для всех категорий
+-- update category set anna_name='women''s clothes' where id=1;
+-- update category set anna_name='men''s clothes' where id=2;
+-- update category set anna_name='women''s shoes' where id=3;
+-- update category set anna_name='hat' where id=5;
+-- добавить новый бренд "Тётя Клава Company"
+-- insert into brand (name) values ('Тётя Клава Company');
+-- удалить этот бренд
+-- delete from brand where id=6;
+
+-- урок 9
+-- insert into shop.product (brand_id, product_type_id, category_id, price) values (1, 1, 1, '5320');
+-- insert into product (brand_id, product_type_id, category_id, price) values (2, 2, 2, '7370');
+-- insert into product (brand_id, product_type_id, category_id, price) values (2, 5, 2, 1310);
+
+-- урок 14
+-- select * from product
+-- inner join category on product.category_id = category.id;
+
+-- select product.id, product.price, name from product
+-- inner join category on product.category_id = category.id
+-- where price < 5000;
+
+-- select * from product
+-- inner join category on product.category_id = category.id
+-- inner join brand on product.brand_id = brand.id
+-- inner join product_type on product.product_type_id = product_type.id;
+
+-- выбираем только нужные столбцы
+-- select product.id, price, category.name, category.discount, category.anna_name, brand.name, product_type.name from product
+-- inner join category on product.category_id = category.id
+-- inner join brand on product.brand_id = brand.id
+-- inner join product_type on product.product_type_id = product_type.id;
+
+-- переименовываем столбцы
+-- select product.id, price, category.name as category_name, category.discount, category.anna_name, brand.name as brand_name, product_type.name as product_type_name from product
+-- inner join category on product.category_id = category.id
+-- inner join brand on product.brand_id = brand.id
+-- inner join product_type on product.product_type_id = product_type.id;
+
+-- урок 15
+-- select category.* from category
+-- left join product on product.category_id = category.id
+-- where product.id is null;
+
+-- select category.* from product
+-- right join category on product.category_id = category.id
+-- where product.id is null;
+
+-- select product.id, price, category.name, category.discount, category.anna_name, brand.name, product_type.name from product
+-- inner join category on product.category_id = category.id
+-- inner join brand on product.brand_id = brand.id
+-- inner join product_type on product.product_type_id = product_type.id;
+
+-- выводим все товары кот. не попали в нашу табл. product из табл. product_type
+-- select product_type.* from product_type
+-- left join product on product_type_id = product_type.id
+-- where product.id is null;
+
+-- выводим товары которые не попали ни в один из заказов  (select * from `order`)
+-- нас интересуют только столбцы табл. product поэтому product.* (select product.* from `order`)
+-- нас интересуют нормальный текст и названия столбцов  
+-- select brand.name as brand_name, product_type.name as product_type_name, category.name as category_name, category.discount as discount, category.anna_name as anna_name, price from `order`
+-- табл. order_products соединяем с табл. order
+-- inner join order_products on order_products.order_id = `order`.id
+-- табл. product соединяем с табл. order_products + (inner join product on order_products.product_id = product.id)
+-- ставим right что бы вывести и пустые не попавшие в табл. order
+-- right join product on order_products.product_id = product.id
+-- выводим нормальный текст вместо id
+-- inner join brand on product.brand_id = brand.id
+-- inner join category on product.category_id = category.id
+-- inner join product_type on product.product_type_id = product_type.id
+-- отфильтровываем пустые
+-- where `order`.id is null;
+		      
+		      
+		     
